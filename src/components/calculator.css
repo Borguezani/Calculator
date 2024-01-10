@@ -19,7 +19,9 @@ h1 {
 .MuiContainer-maxWidthXs {
   background-color: black;
   border-radius: 1em;
+  min-width: 430px;
 }
 .MuiContainer-maxWidthXs h1 {
   background-color: black;
 }
+
