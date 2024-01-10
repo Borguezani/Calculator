@@ -1,0 +1,39 @@
+button {
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  background-color: #505050;
+  color: white;
+  margin: 0.3em;
+}
+button:hover {
+  cursor: pointer;
+}
+:nth-child(4n) {
+  background-color: #ff9500;
+  color: white;
+}
+
+:nth-child(-n + 3) {
+  background-color: #d4d4d2;
+  color: black;
+}
+
+:nth-last-child(-n + 2) {
+  background-color: #505050;
+  color: #fff;
+}
+:nth-last-child(-n + 1) {
+  background-color: black;
+  color: #fff;
+}
+:nth-child(18) {
+  visibility: hidden;
+}
+
+:last-child {
+  background-color: #d4d4d2;
+  color: black;
+}
