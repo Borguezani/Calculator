@@ -16,10 +16,10 @@ h1 {
   border-radius: 1em;
   padding: 0.5em;
 }
-.css-nzinn5-MuiContainer-root {
+.MuiContainer-maxWidthXs {
   background-color: black;
   border-radius: 1em;
 }
-.css-nzinn5-MuiContainer-root h1 {
+.MuiContainer-maxWidthXs h1 {
   background-color: black;
 }
