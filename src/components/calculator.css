@@ -7,21 +7,24 @@ h1 {
   padding: 0.2em;
   overflow: hidden;
 }
-.container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  border-radius: 1em;
-  padding: 0.5em;
-}
 .MuiContainer-maxWidthXs {
   background-color: black;
   border-radius: 1em;
   min-width: 430px;
 }
+.MuiBox-root{
+  display: flex;
+ justify-content: center;
+}
 .MuiContainer-maxWidthXs h1 {
   background-color: black;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: black;
+  width: 100%;
+  border-radius: 1em;
+  padding: 0.5em;
 }
 
